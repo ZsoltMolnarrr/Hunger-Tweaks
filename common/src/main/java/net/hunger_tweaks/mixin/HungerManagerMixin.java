@@ -9,7 +9,7 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.ModifyVariable;
 
-@Mixin(HungerManager.class)
+@Mixin(value = HungerManager.class, priority = 100) // Higher priority so exhaust is modified first
 public class HungerManagerMixin {
     @ModifyVariable(method = "addExhaustion", at = @At("HEAD"), ordinal = 0, argsOnly = true)
     private float modifyExhaustion(float exhaustion) {
