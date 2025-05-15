@@ -23,5 +23,6 @@ public final class HungerTweaksMod {
     }
 
     public static void init() {
+        getConfig();
     }
 }
