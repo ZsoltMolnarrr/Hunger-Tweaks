@@ -1,5 +1,7 @@
 # Hunger Tweaks
 
+Server side mod.
+
 Changes how hunger related mechanics.
 
 ## Features
