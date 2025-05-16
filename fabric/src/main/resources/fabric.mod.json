@@ -2,14 +2,14 @@
   "schemaVersion": 1,
   "id": "hunger_tweaks",
   "version": "${version}",
-  "name": "Enchant Limiter",
-  "description": "Limit the number of enchantments on an item.",
+  "name": "Hunger Tweaks",
+  "description": "Changes exhaust and regeneration intensity.",
   "authors": [
     "Daedelus"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/ZsoltMolnarrr/Hunger-Tweaks"
   },
   "license": "GPL-3.0",
   "icon": "icon.png",
