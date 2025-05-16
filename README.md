@@ -1,19 +1,14 @@
-# Enchant Limiter
+# Hunger Tweaks
 
-Limit the number of enchantments on an item.
+Changes how hunger related mechanics.
 
-Automatically applies limit to all breakable items and enchanted books by default.
+## Features
 
-## Item component
+- Adjusted exhaustion rate (default: 0.5)
+- Adjusted natural regeneration rate (default: 0.5)
 
-Enchantment limit is based on a new item component: `hunger_tweaks:limit` 
+## Configurable
 
-Example command
-```
-/give @p minecraft:golden_sword[hunger_tweaks:limit={"count":3}]
-```
+Fully configurable.
 
-## Configuration
-
-- Adjustable default enchantment limit (default: 3)
-
+Config file is located in `config/hunger_tweaks.json`.
