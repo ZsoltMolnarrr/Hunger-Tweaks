@@ -1,7 +1,7 @@
 package net.hunger_tweaks;
 
 import net.hunger_tweaks.config.Config;
-import net.tinyconfig.ConfigManager;
+import net.tiny_config.ConfigManager;
 
 public final class HungerTweaksMod {
     public static final String ID = "hunger_tweaks";
